@@ -1,0 +1,12 @@
+[Unit]
+Description=Huawei MateBook Touchscreen Fix Service
+After=multi-user.target
+After=suspend.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/fix-touchscreen.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target suspend.target
