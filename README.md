@@ -1,4 +1,4 @@
-# Huawei MateBook 14 (Core Ultra 125H) — Ubuntu Touchscreen Fix
+# Huawei MateBook 14 (Core Ultra 5 125H) — Ubuntu Touchscreen Fix
 
 Tested on Ubuntu 24.04 LTS, kernel 6.8.x.
 
@@ -38,9 +38,9 @@ That's it.
 
 ## Tested on
 
-| Device | Ubuntu | Kernel | Status |
-|---|---|---|---|
-| MateBook 14 Core Ultra 125H | 24.04 LTS | 6.8.x | Works |
+| Device | CPU | Architecture | Ubuntu | Kernel | Status |
+|---|---|---|---|---|---|
+| MateBook 14 Core Ultra 125H | Intel Core Ultra 5 125H | Meteor Lake | 24.04 LTS | 6.8.x | Works |
 
 Tested on a different config? Open an issue or PR with your results.
 
